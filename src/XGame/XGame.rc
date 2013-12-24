@@ -1,0 +1,958 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\XGame.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\research\\icon1.ico"
+IDI_ICON_MINAL_FACTORY  ICON    DISCARDABLE     "res\\buildings\\minalFactory.ico"
+IDI_ICON_CRYCALFACTORY  ICON    DISCARDABLE     "res\\buildings\\crycalFactory.ico"
+IDI_ICON_DIPOFACTORY    ICON    DISCARDABLE     "res\\buildings\\dipoFactory.ico"
+IDI_ICON_SUNPOWERFACTORY ICON    DISCARDABLE     "res\\buildings\\sunPowerFactory.ico"
+IDI_ICON_ROBERTFACTORY  ICON    DISCARDABLE     "res\\buildings\\RobertFactory.ico"
+IDI_ICON_LABFACTORY     ICON    DISCARDABLE     "res\\buildings\\LabFactory.ico"
+IDI_ICON_ACCOUNT        ICON    DISCARDABLE     "res\\gui\\account.ico"
+IDI_ICON_PASSWORD       ICON    DISCARDABLE     "res\\gui\\password.ico"
+IDI_ICON_BOATYARD       ICON    DISCARDABLE     "res\\buildings\\boatyard.ico"
+IDI_ICON1_STAR          ICON    DISCARDABLE     "res\\stars\\star1.ico"
+IDI_ICON2_STAR          ICON    DISCARDABLE     "res\\stars\\star2.ico"
+IDI_ICON3_STAR          ICON    DISCARDABLE     "res\\stars\\star3.ico"
+IDI_ICON4_STAR          ICON    DISCARDABLE     "res\\stars\\star4.ico"
+IDI_ICON5_STAR          ICON    DISCARDABLE     "res\\stars\\star5.ico"
+IDI_ICON6_STAR          ICON    DISCARDABLE     "res\\stars\\star6.ico"
+IDI_ICON7_STAR          ICON    DISCARDABLE     "res\\stars\\star7.ico"
+IDI_ICON8_STAR          ICON    DISCARDABLE     "res\\stars\\star8.ico"
+IDI_ICON9_STAR          ICON    DISCARDABLE     "res\\stars\\star9.ico"
+IDI_ICON10_STAR         ICON    DISCARDABLE     "res\\stars\\star10.ico"
+IDI_TECH_ICON_COMPUTER  ICON    DISCARDABLE     "res\\research\\computer.ico"
+IDI_TECH_ICON_BURNING   ICON    DISCARDABLE     "res\\research\\fire.ico"
+IDI_TECH_ICON_POWER     ICON    DISCARDABLE     "res\\research\\power.ico"
+IDI_TECH_ICON_PULSE     ICON    DISCARDABLE     "res\\research\\pulse.ico"
+IDI_TECH_ICON_RADIO     ICON    DISCARDABLE     "res\\research\\radio.ico"
+IDI_TECH_ICON_SPY       ICON    DISCARDABLE     "res\\research\\spy.ico"
+IDI_BOAT_HEAVY_FIGHTER  ICON    DISCARDABLE     "res\\boats\\heavybattleplan.ico"
+IDI_BOAT_LIGHT_FIGHTER  ICON    DISCARDABLE     "res\\boats\\lightbattleplan.ico"
+IDI_BOAT_SMALL_SCUTTER  ICON    DISCARDABLE     "res\\boats\\smallsuttle.ico"
+IDI_BOAT_SPY_PLANET     ICON    DISCARDABLE     "res\\boats\\spyplanet.ico"
+IDI_BOAT_SUNPOWER_PLANET ICON    DISCARDABLE     "res\\boats\\sunpowerplanet.ico"
+IDI_BOAT_LARGESCUTTER   ICON    DISCARDABLE     "res\\boats\\largescutter.ico"
+IDI_BOAT_CRUISOR        ICON    DISCARDABLE     "res\\boats\\cruisor.ico"
+IDI_BOAT_WARSHIP        ICON    DISCARDABLE     "res\\boats\\warship.ico"
+IDI_GUI_BOATYARD        ICON    DISCARDABLE     "res\\gui\\boatyard.ICO"
+IDI_GUI_COMMAND         ICON    DISCARDABLE     "res\\gui\\commander.ico"
+IDI_GUI_INFORMATION     ICON    DISCARDABLE     "res\\gui\\info_center.ICO"
+IDI_GUI_RESEARCH        ICON    DISCARDABLE     "res\\gui\\research.ico"
+IDI_GUI_RESOURCE        ICON    DISCARDABLE     "res\\gui\\resource.ICO"
+IDI_GUI_FACTORY         ICON    DISCARDABLE     "res\\gui\\FACTORY.ICO"
+IDI_GUI_PERSON          ICON    DISCARDABLE     "res\\gui\\person.ico"
+IDI_GUI_GALAXY          ICON    DISCARDABLE     "res\\gui\\galaxy.ICO"
+IDI_GUI_DOCUMENTS       ICON    DISCARDABLE     "res\\gui\\docs.ICO"
+IDI_GUI_SHIPS           ICON    DISCARDABLE     "res\\gui\\ships.ICO"
+IDI_TECH_ICON_ATTACK    ICON    DISCARDABLE     "res\\research\\dockattack.ico"
+IDI_ICON_NATITEFACTORY  ICON    DISCARDABLE     "res\\buildings\\natitefactory.ico"
+IDI_TECH_ICON_SHEILED   ICON    DISCARDABLE     "res\\research\\sheiled.ico"
+IDI_TECH_ICON_DEFENSE   ICON    DISCARDABLE     "res\\research\\defense.ico"
+IDI_BOAT_CONOLY         ICON    DISCARDABLE     "res\\boats\\conoly.ico"
+IDI_BOAT_RECYCLE        ICON    DISCARDABLE     "res\\boats\\recycle.ico"
+IDI_BOAT_BOMBER         ICON    DISCARDABLE     "res\\boats\\bomber.ico"
+IDI_BOAT_DESTROYER      ICON    DISCARDABLE     "res\\boats\\destroyer.ico"
+IDI_BOAT_DS             ICON    DISCARDABLE     "res\\boats\\ds.ico"
+IDI_TECH_ICON_SUPERTECH ICON    DISCARDABLE     "res\\research\\superstech.ico"
+IDI_TECH_ICON_SUPERSPACE ICON    DISCARDABLE     "res\\research\\superspace.ico"
+IDI_TECH_ICON_DENGLIZI  ICON    DISCARDABLE     "res\\research\\denglizi.ico"
+IDI_TECH_ICON_GRAVITION ICON    DISCARDABLE     "res\\research\\gravition.ico"
+IDI_ICON_MISS           ICON    DISCARDABLE     "res\\defenses\\miss.ico"
+IDI_ICON_SLASER         ICON    DISCARDABLE     "res\\defenses\\slaser.ico"
+IDI_ICON_HLASER         ICON    DISCARDABLE     "res\\defenses\\hlaser.ico"
+IDI_ICON_GAUSS          ICON    DISCARDABLE     "res\\defenses\\gauss.ico"
+IDI_ICON_IONC           ICON    DISCARDABLE     "res\\defenses\\icon.ico"
+IDI_ICON_PC             ICON    DISCARDABLE     "res\\defenses\\pc.ico"
+IDI_GUI_DEFENSE         ICON    DISCARDABLE     "res\\gui\\defense.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 309
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 UGame"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,8,7,20,20
+    LTEXT           "UGame E1.70a [21 Aug 2007]",IDC_STATIC,40,12,105,8,
+                    SS_NOPREFIX
+    LTEXT           "版权所有 (C) RedHunter 2006-2007",IDC_STATIC,40,28,129,
+                    8
+    DEFPUSHBUTTON   "确定",IDOK,186,7,42,16,WS_GROUP
+    DEFPUSHBUTTON   "帮助",ID_BTN_HELP,186,26,42,16,WS_GROUP
+    EDITTEXT        IDC_EDIT1,7,58,221,122,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    EDITTEXT        IDC_EDIT_THANKLIST,7,196,221,106,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_READONLY | WS_VSCROLL
+    CTEXT           "感谢下列人员为UGame作出贡献（排名不分先后）",IDC_STATIC,
+                    32,184,173,8
+    CTEXT           "注意条款：",IDC_STATIC,8,46,41,8
+END
+
+IDD_XGAME_DIALOG DIALOGEX 0, 0, 459, 450
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "UGame"
+FONT 10, "新宋体", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "",IDOK,445,437,7,9,NOT WS_VISIBLE
+    PUSHBUTTON      "",IDCANCEL,445,439,7,7,NOT WS_VISIBLE
+    CONTROL         135,IDC_STATIC,"Static",SS_BITMAP,222,10,24,14
+    CONTROL         137,IDC_STATIC,"Static",SS_BITMAP,285,10,24,14
+    CONTROL         138,IDC_STATIC,"Static",SS_BITMAP,348,10,24,14
+    CONTROL         139,IDC_STATIC,"Static",SS_BITMAP,411,10,24,14
+    CTEXT           "金属",IDC_STATIC3,227,31,17,8,SS_NOPREFIX | 
+                    SS_CENTERIMAGE,WS_EX_TRANSPARENT
+    CTEXT           "水晶",IDC_STATIC4,289,31,17,8,SS_NOPREFIX | 
+                    SS_CENTERIMAGE,WS_EX_TRANSPARENT
+    CTEXT           "重氢",IDC_STATIC5,353,31,17,8,SS_NOPREFIX | 
+                    SS_CENTERIMAGE,WS_EX_TRANSPARENT
+    CTEXT           "能量",IDC_STATIC6,414,31,17,8,SS_NOPREFIX | 
+                    SS_CENTERIMAGE,WS_EX_TRANSPARENT
+    CTEXT           "500",IDC_STA_MINAL,207,44,57,9,SS_CENTERIMAGE,
+                    WS_EX_TRANSPARENT
+    CTEXT           "500",IDC_STA_CRY,270,44,57,9,SS_CENTERIMAGE,
+                    WS_EX_TRANSPARENT
+    CTEXT           "0",IDC_STA_DIP,334,44,57,9,SS_CENTERIMAGE,
+                    WS_EX_TRANSPARENT
+    CTEXT           "0/0",IDC_STA_POWER,396,44,56,9,SS_CENTERIMAGE,
+                    WS_EX_TRANSPARENT
+    LTEXT           "积分：",IDC_STATIC1,114,34,25,8,SS_CENTERIMAGE,
+                    WS_EX_TRANSPARENT
+    LTEXT           "",IDC_STA_RANK,145,34,58,10,SS_CENTERIMAGE,
+                    WS_EX_TRANSPARENT
+    LTEXT           "U币：",IDC_STATIC2,114,47,21,8,SS_CENTERIMAGE,
+                    WS_EX_TRANSPARENT
+    LTEXT           "",IDC_STA_PRODUCE_RATIO,145,47,58,10,SS_CENTERIMAGE,
+                    WS_EX_TRANSPARENT
+    LTEXT           "",IDC_STA_REG_TIME,114,21,103,8,SS_CENTERIMAGE,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "",IDC_BTN_ACCOUNT_INFO,114,4,96,13
+END
+
+IDD_LOGIN_DIALOG DIALOG DISCARDABLE  0, 0, 179, 86
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "登陆UGame"
+FONT 10, "新宋体"
+BEGIN
+    DEFPUSHBUTTON   "登陆",IDOK,16,66,42,14
+    PUSHBUTTON      "取消",IDCANCEL,120,66,42,14
+    LTEXT           "帐号:",IDC_STATIC,34,14,21,8
+    LTEXT           "密码:",IDC_STATIC,34,40,21,8
+    COMBOBOX        IDC_COMBO1,60,11,93,74,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT2,60,38,93,12,ES_PASSWORD | ES_AUTOHSCROLL
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,7,60,166,1
+    ICON            IDI_ICON_ACCOUNT,IDC_STATIC,8,7,20,20
+    ICON            IDI_ICON_PASSWORD,IDC_STATIC,7,35,20,20
+    PUSHBUTTON      "注册...",IDC_BTN_NEWCOUNT,68,66,42,14
+    PUSHBUTTON      "?",IDC_BTN_FORGET_PASSWORD,156,38,10,12
+    PUSHBUTTON      "D",IDC_BTN_DELETE_ACCOUNT,156,11,10,12
+END
+
+IDD_PAGE1_PERSON_INFO DIALOGEX 0, 0, 523, 396
+STYLE DS_MODALFRAME | WS_CHILD | WS_CAPTION
+CAPTION "排行榜"
+FONT 10, "新宋体", 0, 0, 0x1
+BEGIN
+    CONTROL         "按积分排名",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,53,9,56,10
+    CONTROL         "按舰队排名",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,117,
+                    9,56,10
+    CONTROL         "按坐标排名",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,181,
+                    9,56,10
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_NOSORTHEADER | 
+                    WS_BORDER | WS_GROUP | WS_TABSTOP,0,25,523,371,
+                    WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "Go to me",IDC_BTN_GO,380,5,45,16
+    EDITTEXT        IDC_EDIT_GALA,268,6,18,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_SYS,287,6,18,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_POS,306,6,18,14,ES_AUTOHSCROLL | ES_NUMBER
+    PUSHBUTTON      "搜索",IDC_BTN_GO_TARGET,330,5,45,16
+    PUSHBUTTON      "刷新排名",IDC_BTN_UPDATERANK,430,5,45,16
+END
+
+IDD_PAGE2_BUILDINGS DIALOG DISCARDABLE  0, 0, 523, 396
+STYLE DS_MODALFRAME | WS_CHILD | WS_CAPTION
+CAPTION "建设中心"
+FONT 10, "新宋体"
+BEGIN
+    CONTROL         "",IDC_STA_INFO,"Static",SS_ETCHEDHORZ,0,298,521,1
+    DEFPUSHBUTTON   "添加任务(&A)",IDC_BTN_BUILD,193,278,56,16
+    LTEXT           "",IDC_STA_BUILD_TIMER,220,300,78,13
+    PUSHBUTTON      "删除任务(&D)",IDC_BTN_CANCEL,257,278,56,16
+    LTEXT           "当前建筑时间：",IDC_STATIC,148,303,57,8
+    CONTROL         "List1",IDC_LIST_PROGRESS,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_NOSORTHEADER | 
+                    WS_BORDER | WS_TABSTOP,146,315,217,78
+END
+
+IDD_PAGE3_RESOURCE DIALOGEX 0, 0, 523, 396
+STYLE DS_MODALFRAME | WS_CHILD | WS_CAPTION
+CAPTION "资源中心"
+FONT 10, "新宋体", 0, 0, 0x1
+BEGIN
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_NOSORTHEADER | WS_BORDER | 
+                    WS_TABSTOP,0,0,523,396,WS_EX_DLGMODALFRAME
+END
+
+IDD_DIALOG_GALAXY DIALOGEX 0, 0, 523, 396
+STYLE DS_MODALFRAME | WS_CHILD | WS_CAPTION
+CAPTION "星际争霸"
+FONT 10, "新宋体", 0, 0, 0x1
+BEGIN
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_NOSORTHEADER | WS_BORDER | 
+                    WS_TABSTOP,0,25,523,371,WS_EX_DLGMODALFRAME
+    EDITTEXT        IDC_EDIT_SHOW_GALA,164,5,21,15,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_EDIT_SHOW_SYS,294,5,21,15,ES_AUTOHSCROLL | ES_NUMBER
+    PUSHBUTTON      "<",IDC_BTN_GALA_LEFT,135,5,21,15
+    PUSHBUTTON      ">",IDC_BTN_GALA_RIGHT,193,5,21,15
+    PUSHBUTTON      "<",IDC_BTN_SYS_LEFT,267,5,21,15
+    PUSHBUTTON      ">",IDC_BTN_SYS_RIGHT,321,5,21,15
+    DEFPUSHBUTTON   "显示",IDC_BTN_SHOW,358,5,35,15
+    LTEXT           "银河系：",IDC_STATIC,97,9,33,8
+    LTEXT           "太阳系：",IDC_STATIC,230,9,33,8
+    PUSHBUTTON      "间谍太阳系",IDC_BTN_SPYS,401,5,49,15
+    CTEXT           "",IDC_STATIC_TIME,8,9,58,8
+END
+
+IDD_DIALOG_BOATYARD DIALOG DISCARDABLE  0, 0, 523, 396
+STYLE DS_MODALFRAME | WS_CHILD | WS_CAPTION
+CAPTION "飞船厂"
+FONT 10, "新宋体"
+BEGIN
+    DEFPUSHBUTTON   "添加任务(&A)",IDC_BTN_RESEARCH,220,278,56,16
+    PUSHBUTTON      "删除任务(&D)",IDC_BTN_CANCEL,284,278,56,16
+    EDITTEXT        IDC_EDIT1,164,279,49,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "当前生产时间：",IDC_STATIC,148,303,57,8
+    CONTROL         "List1",IDC_LIST_PROGRESS,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_NOSORTHEADER | 
+                    WS_BORDER | WS_TABSTOP,146,315,217,78
+    CONTROL         "",IDC_STA_INFO,"Static",SS_ETCHEDHORZ,0,298,523,1
+    LTEXT           "",IDC_STA_RESEARCH_TIMER,233,300,102,12
+END
+
+IDD_DIALOG_RESEARCH_CENTER DIALOG DISCARDABLE  0, 0, 523, 396
+STYLE DS_MODALFRAME | WS_CHILD | WS_CAPTION
+CAPTION "研究中心"
+FONT 10, "新宋体"
+BEGIN
+    CONTROL         "",IDC_STA_INFO,"Static",SS_ETCHEDHORZ,0,298,522,1
+    DEFPUSHBUTTON   "添加任务(&A)",IDC_BTN_RESEARCH,193,278,56,16
+    LTEXT           "",IDC_STA_RESEARCH_TIMER,233,300,70,13
+    PUSHBUTTON      "删除任务(&D)",IDC_BTN_CANCEL,257,278,56,16
+    LTEXT           "当前研究时间：",IDC_STATIC,148,303,57,8
+    CONTROL         "List1",IDC_LIST_PROGRESS,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_NOSORTHEADER | 
+                    WS_BORDER | WS_TABSTOP,146,315,217,78
+END
+
+IDD_DIALOG_COMMANDER DIALOGEX 0, 0, 523, 396
+STYLE DS_MODALFRAME | WS_CHILD | WS_CAPTION
+CAPTION "指挥中心"
+FONT 10, "新宋体", 0, 0, 0x1
+BEGIN
+    LTEXT           "选择出发星球：",IDC_STATIC,4,9,57,8
+    COMBOBOX        IDC_COMBO1,61,6,86,68,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "金属：",IDC_STATIC,152,8,25,8
+    CTEXT           "0",IDC_STATIC_STAR_METAL,176,7,55,10
+    LTEXT           "晶体：",IDC_STATIC,237,8,25,8
+    CTEXT           "0",IDC_STATIC_STAR_CRYSTAL,260,7,55,10
+    LTEXT           "重氢：",IDC_STATIC,322,8,25,8
+    CTEXT           "0",IDC_STATIC_STAR_DIOP,344,7,55,10
+    LTEXT           "月球：",IDC_STATIC_MOON,421,8,45,8
+    LTEXT           "传送门：",IDC_STATIC_GATE,471,8,46,8
+    PUSHBUTTON      "摧毁舰队造月",ID_BTN_PRODUCEMOON,430,48,83,16
+    PUSHBUTTON      "造空间传输门",ID_BTN_PRODUCEGATE,430,67,83,16
+    GROUPBOX        "",IDC_STATIC,420,84,99,72
+    PUSHBUTTON      "所有舰队",ID_BTN_ALL,430,116,40,16
+    PUSHBUTTON      "没有舰队",ID_BTN_NONE,473,116,40,16
+    LTEXT           "默认间谍卫星：",IDC_STATIC,429,140,57,8
+    EDITTEXT        IDC_EDIT_DEFAULT,489,137,22,12,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    CONTROL         "List1",IDC_LIST_TASK,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_NOSORTHEADER | WS_BORDER | 
+                    WS_TABSTOP,0,25,417,131,WS_EX_DLGMODALFRAME
+    LTEXT           "出发星球：",IDC_STATIC,6,167,41,8
+    LTEXT           "",IDC_STATIC_LEAVE_POS,53,166,76,10
+    LTEXT           "目标星球：",IDC_STATIC,6,184,41,8
+    EDITTEXT        IDC_EDIT_GALA,53,181,18,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_SYS,72,181,18,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_POS,91,181,18,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "快捷方式：",IDC_STATIC,6,201,41,8
+    COMBOBOX        IDC_COMBO_FASTSTAR,53,199,94,95,CBS_DROPDOWNLIST | 
+                    WS_TABSTOP
+    LTEXT           "舰队速度：",IDC_STATIC,6,218,41,8
+    COMBOBOX        IDC_COMBO_SPEED,53,215,94,95,CBS_DROPDOWNLIST | 
+                    WS_TABSTOP
+    CONTROL         "间谍",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | WS_GROUP,
+                    157,171,32,10
+    CONTROL         "攻击",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,157,192,32,
+                    10
+    CONTROL         "回收",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,157,213,32,
+                    10
+    CONTROL         "运输",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON,196,171,32,
+                    10
+    CONTROL         "派遣",IDC_RADIO5,"Button",BS_AUTORADIOBUTTON,196,192,32,
+                    10
+    CONTROL         "殖民",IDC_RADIO6,"Button",BS_AUTORADIOBUTTON,196,213,32,
+                    10
+    LTEXT           "金属：",IDC_STATIC,237,172,25,8
+    LTEXT           "晶体：",IDC_STATIC,237,186,25,8
+    LTEXT           "重氢：",IDC_STATIC,237,200,25,8
+    EDITTEXT        IDC_EDIT_METAL,265,169,54,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_CRYSTAL,265,184,54,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_DIOP,265,199,54,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "最大",IDC_BTN_METAL_MAX,325,168,22,13
+    PUSHBUTTON      "最大",IDC_BTN_CRYSTAL_MAX,325,183,22,13
+    PUSHBUTTON      "最大",IDC_BTN_DIOP_MAX,325,198,22,13
+    LTEXT           "任务时间：",IDC_STATIC,359,168,41,8
+    LTEXT           "需要重氢：",IDC_STATIC,359,185,41,8
+    LTEXT           "运输能力：",IDC_STATIC,359,202,41,8
+    LTEXT           "舰队数量：",IDC_STATIC,359,219,41,8
+    LTEXT           "-",IDC_STATIC_TIME,407,167,51,11
+    LTEXT           "-",IDC_STATIC_OIL,407,184,51,11
+    LTEXT           "0",IDC_STATIC_TRANSFER,407,202,51,11
+    LTEXT           "0",IDC_STATIC_ATTACK,407,218,51,11
+    DEFPUSHBUTTON   "GO!",IDOK,474,163,39,19
+    PUSHBUTTON      "传送...",ID_BTN_TRANSFER,474,187,39,19
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDFRAME,0,237,522,20
+    LTEXT           "",IDC_STA_MAX_TASKS,5,242,215,11
+    LTEXT           "",IDC_STA_IS_MAX,298,242,216,11
+    CONTROL         "List1",IDC_LIST_TASK_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_NOSORTHEADER | WS_BORDER | 
+                    WS_TABSTOP,0,258,523,82,WS_EX_DLGMODALFRAME
+    GROUPBOX        "",IDC_STATIC,2,157,150,76
+    GROUPBOX        "",IDC_STATIC,154,157,198,76
+    GROUPBOX        "",IDC_STATIC,355,157,107,76
+    COMBOBOX        IDC_COMBO2,110,181,37,32,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "放弃殖民星",ID_BTN_DESTROYCOLONY,430,29,83,16
+    GROUPBOX        "",IDC_STATIC,420,22,99,64
+    CTEXT           "0",IDC_STATIC_LEFT_CAPACITY,265,218,54,9
+    LTEXT           "容量：",IDC_STATIC,237,218,25,8
+    PUSHBUTTON      "全部",IDC_BTN_ALL_RESOURCE,325,214,22,13
+    PUSHBUTTON      "交易...",ID_BTN_TRADE,474,211,39,19
+    PUSHBUTTON      "战斗舰队",ID_BTN_ALL_WAR,430,94,40,16
+    PUSHBUTTON      "搬家舰队",ID_BTN_ALL_BANJIA,473,94,40,16
+    CONTROL         "List1",IDC_LIST_TASK_ENEMY,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_NOSORTHEADER | WS_BORDER | 
+                    WS_TABSTOP,0,352,523,44,WS_EX_DLGMODALFRAME
+    LTEXT           "入侵的舰队：",IDC_STATIC,4,342,49,8
+END
+
+IDD_DIALOG_INFOMATION DIALOG DISCARDABLE  0, 0, 523, 396
+STYLE DS_MODALFRAME | WS_CHILD | WS_CAPTION
+CAPTION "情报中心"
+FONT 10, "新宋体"
+BEGIN
+    PUSHBUTTON      "删除(&D)",IDC_BTN_OK,354,374,53,16
+    LTEXT           "",IDC_STA_INFO,9,378,151,12
+    COMBOBOX        IDC_COMBO1,172,376,107,88,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "复制到剪切板(&C)",IDC_BTN_COPY,412,374,82,16
+    CONTROL         "删除战斗报告",IDC_CHECK,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,285,377,64,10
+END
+
+IDD_DIALOG_SHOW_DETAILS DIALOGEX 0, 0, 523, 396
+STYLE DS_MODALFRAME | WS_CHILD | WS_CAPTION
+CAPTION "资料库"
+FONT 10, "新宋体", 0, 0, 0x1
+BEGIN
+    CONTROL         "List2",IDC_LIST_DETAILS,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_NOSORTHEADER | 
+                    WS_BORDER | WS_TABSTOP,118,0,405,396,WS_EX_DLGMODALFRAME
+    CONTROL         "Tree1",IDC_TREE1,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | TVS_SHOWSELALWAYS | 
+                    TVS_INFOTIP | TVS_FULLROWSELECT | WS_BORDER | WS_TABSTOP,
+                    0,0,117,396,WS_EX_DLGMODALFRAME
+END
+
+IDD_JOB_FINISH_TIP DIALOGEX 0, 0, 99, 61
+STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "提示"
+FONT 9, "楷体_GB2312", 0, 0, 0x1
+BEGIN
+    CTEXT           "",IDC_STA_INFO,0,9,99,30,SS_CENTERIMAGE
+END
+
+IDD_DLG_TRANSFER_BY_SUPERGATE DIALOGEX 0, 0, 147, 121
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "超空间门传送..."
+FONT 10, "新宋体", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "传送",IDOK,31,95,40,18
+    PUSHBUTTON      "取消",IDCANCEL,78,95,40,18
+    LISTBOX         IDC_LIST1,7,7,134,80,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_TABSTOP,WS_EX_STATICEDGE
+END
+
+IDD_DIALOG_NEWACCOUNT DIALOG DISCARDABLE  0, 0, 151, 327
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "注册新帐户"
+FONT 10, "新宋体"
+BEGIN
+    DEFPUSHBUTTON   "建立帐户",IDOK,26,306,43,14
+    PUSHBUTTON      "取消",IDCANCEL,81,306,43,14
+    LTEXT           "帐户名字：",IDC_STATIC,14,21,41,8
+    LTEXT           "帐户密码：",IDC_STATIC,14,41,41,8
+    LTEXT           "密码确定：",IDC_STATIC,14,61,41,8
+    LTEXT           "星球名称：",IDC_STATIC,14,81,41,8
+    EDITTEXT        IDC_EDIT_NAME,59,18,76,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PASSWORD,59,38,76,13,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PASSWORDAGAIN,59,58,76,13,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_STAR_NAME,59,78,76,13,ES_AUTOHSCROLL
+    GROUPBOX        "",IDC_STATIC,7,7,137,230
+    LTEXT           "1.上述所有资料注册成功后将不能修改，若想修改请重新注册帐号。",
+                    IDC_STATIC,14,255,120,19
+    LTEXT           "2.星球名称将作为忘记密码需要提供的唯一验证码，请牢记！",
+                    IDC_STATIC,14,278,120,21
+    LTEXT           "注意事项：",IDC_STATIC,14,243,43,8
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,7,301,137,1
+    LTEXT           "电脑级别：",IDC_STATIC,14,100,41,8
+    COMBOBOX        IDC_COMBO1,59,98,76,55,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "游戏速度：",IDC_STATIC,14,120,41,8
+    EDITTEXT        IDC_EDIT_SPEED,60,118,76,13,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "最高100倍，出现bug责任自负哟",IDC_STATIC,16,135,117,8,
+                    WS_DISABLED
+    LTEXT           "NPC角色ID：",IDC_STATIC,14,152,45,8
+    EDITTEXT        IDC_EDIT_NPC_NAME,60,150,76,13,ES_AUTOHSCROLL
+    LTEXT           "电脑智能：",IDC_STATIC,14,170,41,8
+    CONTROL         "根据游戏时间发展",IDC_RADIO1,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,58,170,80,10
+    CONTROL         "根据玩家积分随机",IDC_RADIO2,"Button",
+                    BS_AUTORADIOBUTTON,58,185,80,10
+    CONTROL         "电脑将会攻击我",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,59,201,72,10
+    CONTROL         "下线后资源不会增长",IDC_CHECK_RESOURCE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,14,220,88,10
+END
+
+IDD_DIALOG_FIND_FORGETPASSWORD DIALOG DISCARDABLE  0, 0, 163, 78
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "找回忘记的密码"
+FONT 10, "新宋体"
+BEGIN
+    DEFPUSHBUTTON   "找回",IDOK,27,59,50,14
+    PUSHBUTTON      "关闭",IDCANCEL,88,59,50,14
+    LTEXT           "当前帐号名称：",IDC_STATIC,7,11,57,8
+    LTEXT           "请输入该账户星球名字：",IDC_STATIC,7,33,89,8
+    EDITTEXT        IDC_EDIT_ACCOUNTNAME,97,9,59,13,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_EDIT_STAR_NAME,97,30,59,13,ES_AUTOHSCROLL
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,4,53,156,1
+END
+
+IDD_DIALOG_TRADE_CENTER DIALOGEX 0, 0, 277, 212
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "交易中心"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    CONTROL         "卖出",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON | WS_GROUP,
+                    89,165,32,10
+    CONTROL         "买进",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,166,165,32,
+                    10
+    CONTROL         135,IDC_STATIC,"Static",SS_BITMAP,20,10,28,15
+    CONTROL         137,IDC_STATIC,"Static",SS_BITMAP,89,10,28,15
+    CONTROL         138,IDC_STATIC,"Static",SS_BITMAP,158,10,28,15
+    CONTROL         138,IDC_STATIC,"Static",SS_BITMAP,227,11,28,15
+    CTEXT           "金属",IDC_STATIC3,26,31,17,8,SS_NOPREFIX | 
+                    SS_CENTERIMAGE,WS_EX_TRANSPARENT
+    CTEXT           "水晶",IDC_STATIC4,96,31,17,8,SS_NOPREFIX | 
+                    SS_CENTERIMAGE,WS_EX_TRANSPARENT
+    CTEXT           "重氢",IDC_STATIC5,166,31,17,8,SS_NOPREFIX | 
+                    SS_CENTERIMAGE,WS_EX_TRANSPARENT
+    CTEXT           "U币",IDC_STATIC6,236,31,13,8,SS_NOPREFIX | 
+                    SS_CENTERIMAGE,WS_EX_TRANSPARENT
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,6,57,266,1
+    LTEXT           "最大交易金属：",IDC_STATIC,9,68,57,8
+    DEFPUSHBUTTON   "确定此笔交易",IDOK,76,188,58,18
+    PUSHBUTTON      "离开",IDCANCEL,153,188,58,18
+    LTEXT           "最大交易晶体：",IDC_STATIC,9,85,57,8
+    LTEXT           "最大交易重氢：",IDC_STATIC,9,102,57,8
+    EDITTEXT        IDC_EDIT_AVAI_M,67,65,58,13,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_AVAI_C,67,82,58,13,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_AVAI_D,67,99,58,13,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "交易金属：",IDC_STATIC,134,68,41,8
+    LTEXT           "交易晶体：",IDC_STATIC,134,85,41,8
+    LTEXT           "交易重氢：",IDC_STATIC,134,102,41,8
+    EDITTEXT        IDC_EDIT_M,177,65,58,13,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_C,177,82,58,13,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_D,177,99,58,13,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,6,155,266,1
+    PUSHBUTTON      "最大",IDC_BTN_METAL_MAX,240,65,23,11
+    PUSHBUTTON      "最大",IDC_BTN_CRY_MAX,240,82,23,11
+    PUSHBUTTON      "最大",IDC_BTN_DIOP_MAX,240,100,23,11
+    CTEXT           "",IDC_STA_METAL,9,45,52,8
+    CTEXT           "",IDC_STA_CRY,78,45,52,8
+    CTEXT           "",IDC_STA_DIOP,147,45,52,8
+    CTEXT           "",IDC_STA_MONEY,216,45,52,8
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,6,181,266,1
+    LTEXT           "交易比例：",IDC_STATIC,9,119,41,8
+    EDITTEXT        IDC_EDIT_TRADE_PERCENT,67,116,58,13,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    LTEXT           "交易U币：",IDC_STATIC,134,119,37,8
+    EDITTEXT        IDC_EDIT_TRADE_MONEY,177,116,58,13,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    LTEXT           "手续费5%：",IDC_STATIC,134,136,41,8
+    EDITTEXT        IDC_EDIT_TRADE_POUNDAGE,177,133,58,13,ES_AUTOHSCROLL | 
+                    ES_READONLY
+END
+
+IDD_DIALOG_ACCOUNT_INFO DIALOGEX 0, 0, 251, 209
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "帝国信息"
+FONT 10, "新宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_ACCOUNT_INFO,7,7,237,95,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_READONLY | WS_VSCROLL,
+                    WS_EX_CLIENTEDGE
+    LTEXT           "您拥有的英雄：",IDC_STATIC,7,106,57,8
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_NOSORTHEADER | WS_BORDER | 
+                    WS_TABSTOP,7,115,237,87
+END
+
+IDD_DIALOG_DEFENSE DIALOG DISCARDABLE  0, 0, 523, 396
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "防御"
+FONT 10, "新宋体"
+BEGIN
+    DEFPUSHBUTTON   "添加任务(&A)",IDC_BTN_RESEARCH,220,278,56,16
+    PUSHBUTTON      "删除任务(&D)",IDC_BTN_CANCEL,284,278,56,16
+    EDITTEXT        IDC_EDIT1,164,279,49,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "当前生产时间：",IDC_STATIC,148,303,57,8
+    CONTROL         "List1",IDC_LIST_PROGRESS,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_NOSORTHEADER | 
+                    WS_BORDER | WS_TABSTOP,146,315,217,78
+    CONTROL         "",IDC_STA_INFO,"Static",SS_ETCHEDHORZ,0,298,523,1
+    LTEXT           "",IDC_STA_RESEARCH_TIMER,233,300,102,12
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,7,0,1
+ PRODUCTVERSION 1,7,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x29L
+#else
+ FILEFLAGS 0x28L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "Comments", "E1.70a [21 Aug 2007]\0"
+            VALUE "CompanyName", "C.P.H\0"
+            VALUE "FileDescription", "Universe Game Application\0"
+            VALUE "FileVersion", "1, 7, 0, 1\0"
+            VALUE "InternalName", "UGame\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2006-2007\0"
+            VALUE "LegalTrademarks", "C.P.H\0"
+            VALUE "OriginalFilename", "UGame.EXE\0"
+            VALUE "PrivateBuild", "2007.08.21\0"
+            VALUE "ProductName", "UGame 应用程序\0"
+            VALUE "ProductVersion", "1, 7, 0, 0\0"
+            VALUE "SpecialBuild", "NO\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 302
+    END
+
+    IDD_XGAME_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 452
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 446
+    END
+
+    IDD_LOGIN_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 172
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 79
+    END
+
+    IDD_DLG_TRANSFER_BY_SUPERGATE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 140
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 114
+    END
+
+    IDD_DIALOG_NEWACCOUNT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 144
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 320
+    END
+
+    IDD_DIALOG_FIND_FORGETPASSWORD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 156
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 71
+    END
+
+    IDD_DIALOG_TRADE_CENTER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 270
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 205
+    END
+
+    IDD_DIALOG_ACCOUNT_INFO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 244
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 202
+    END
+
+    IDD_DIALOG_DEFENSE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 516
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 389
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP  DISCARDABLE     "res\\resource\\minal.bmp"
+IDB_BITMAP2             BITMAP  DISCARDABLE     "res\\resource\\crycal.bmp"
+IDB_BITMAP3             BITMAP  DISCARDABLE     "res\\resource\\dpo.bmp"
+IDB_BITMAP4             BITMAP  DISCARDABLE     "res\\resource\\power.bmp"
+IDB_BIT_GUI_MAIN        BITMAP  DISCARDABLE     "res\\gui\\main.bmp"
+IDB_CLK_0               BITMAP  DISCARDABLE     "res\\clock\\0.bmp"
+IDB_CLK_1               BITMAP  DISCARDABLE     "res\\clock\\1.bmp"
+IDB_CLK_2               BITMAP  DISCARDABLE     "res\\clock\\2.bmp"
+IDB_CLK_3               BITMAP  DISCARDABLE     "res\\clock\\3.bmp"
+IDB_CLK_4               BITMAP  DISCARDABLE     "res\\clock\\4.bmp"
+IDB_CLK_5               BITMAP  DISCARDABLE     "res\\clock\\5.bmp"
+IDB_CLK_6               BITMAP  DISCARDABLE     "res\\clock\\6.bmp"
+IDB_CLK_7               BITMAP  DISCARDABLE     "res\\clock\\7.bmp"
+IDB_CLK_8               BITMAP  DISCARDABLE     "res\\clock\\8.bmp"
+IDB_CLK_9               BITMAP  DISCARDABLE     "res\\clock\\9.bmp"
+IDB_CLK_BACK            BITMAP  DISCARDABLE     "res\\clock\\black.bmp"
+IDB_CLK_POINT           BITMAP  DISCARDABLE     "res\\clock\\point.bmp"
+IDB_BITMAP_CHECKMARK    BITMAP  DISCARDABLE     "res\\gui\\optionmarks.bmp"
+IDB_BITMAP_EDITMARK     BITMAP  DISCARDABLE     "res\\gui\\edit.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU_REDOURCE_PERCENT MENU DISCARDABLE 
+BEGIN
+    POPUP "&Option"
+    BEGIN
+        MENUITEM "100%",                        ID_MENU_RESOURCE_P100
+        MENUITEM "90%",                         ID_MENU_RESOURCE_P90
+        MENUITEM "80%",                         ID_MENU_RESOURCE_P80
+        MENUITEM "70%",                         ID_MENU_RESOURCE_P70
+        MENUITEM "60%",                         ID_MENU_RESOURCE_P60
+        MENUITEM "50%",                         ID_MENU_RESOURCE_P50
+        MENUITEM "40%",                         ID_MENU_RESOURCE_P40
+        MENUITEM "30%",                         ID_MENU_RESOURCE_P30
+        MENUITEM "20%",                         ID_MENU_RESOURCE_P20
+        MENUITEM "10%",                         ID_MENU_RESOURCE_P10
+        MENUITEM "0%",                          ID_MENU_RESOURCE_P00
+    END
+END
+
+IDR_SHELL_MENU MENU DISCARDABLE 
+BEGIN
+    POPUP "Tray"
+    BEGIN
+        MENUITEM "显示游戏(&O)\t（Alt+Z）",     IDR_SHELL_MENU_DISPLAY
+        MENUITEM SEPARATOR
+        MENUITEM "安静模式(&S)",                IDR_SHELL_MENU_SILENTMODE
+        MENUITEM "所有任务结束后退出(&E)",      IDR_SHELL_MENU_EXITWHENALLOVER
+
+        POPUP "定时保存数据"
+        BEGIN
+            MENUITEM "立刻保存",                    IDR_SHELL_MENU_SAVE
+            MENUITEM SEPARATOR
+            MENUITEM "5分钟",                       IDR_SHELL_MENU_SAVE_05
+            MENUITEM "10分钟",                      IDR_SHELL_MENU_SAVE_10
+            MENUITEM "20分钟",                      IDR_SHELL_MENU_SAVE_20
+            MENUITEM "30分钟",                      IDR_SHELL_MENU_SAVE_30
+            MENUITEM "40分钟",                      IDR_SHELL_MENU_SAVE_40
+            MENUITEM "50分钟",                      IDR_SHELL_MENU_SAVE_50
+            MENUITEM "60分钟",                      IDR_SHELL_MENU_SAVE_60
+            MENUITEM "不保存",                      IDR_SHELL_MENU_SAVE_DISABLE
+
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "目前积分：",                  IDR_SHELL_MENU_ACCOUNT_RANK
+        MENUITEM "积分排名：",                  IDR_SHELL_MENU_RANK
+        MENUITEM "帝国信息...(&I)",             IDR_SHELL_MENU_ACCOUNT_INFO
+        MENUITEM SEPARATOR
+        MENUITEM "银河刷新：",                  IDR_SHELL_MENU_GALAXYUPDATETIME
+
+        MENUITEM "贸易中心：",                  IDR_SHELL_MENU_TRADE
+        MENUITEM "超空传送：",                  IDR_SHELL_MENU_GATE
+        MENUITEM SEPARATOR
+        MENUITEM "关于UGame...(&A)",            IDR_SHELL_MENU_ABOUT
+        MENUITEM "退出游戏(&X)",                IDR_SHELL_MENU_EXIT
+    END
+END
+
+IDR_GALAXY_MENU MENU DISCARDABLE 
+BEGIN
+    POPUP "Operation"
+    BEGIN
+        MENUITEM "间谍",                        ID_MENU_GALAXY_SPY
+        MENUITEM "攻击",                        ID_MENU_GALAXY_ATTACK
+        MENUITEM "回收",                        ID_MENU_GALAXY_RECYCLE
+        MENUITEM SEPARATOR
+        MENUITEM "查看排行榜...",               ID_MENU_GALAXY_VIEW_RANK
+    END
+END
+
+IDR_MENU_FLEETLIST MENU DISCARDABLE 
+BEGIN
+    POPUP "Fleet Task"
+    BEGIN
+        MENUITEM "召回",                        ID_MENU_FLEET_CALLBACK
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_DIALOG_COMMANDER DLGINIT
+BEGIN
+    IDC_COMBO_FASTSTAR, 0x403, 1, 0
+"\000" 
+    IDC_COMBO_SPEED, 0x403, 5, 0
+0x3031, 0x2530, "\000" 
+    IDC_COMBO_SPEED, 0x403, 4, 0
+0x3039, 0x0025, 
+    IDC_COMBO_SPEED, 0x403, 4, 0
+0x3038, 0x0025, 
+    IDC_COMBO_SPEED, 0x403, 4, 0
+0x3037, 0x0025, 
+    IDC_COMBO_SPEED, 0x403, 4, 0
+0x3036, 0x0025, 
+    IDC_COMBO_SPEED, 0x403, 4, 0
+0x3035, 0x0025, 
+    IDC_COMBO_SPEED, 0x403, 4, 0
+0x3034, 0x0025, 
+    IDC_COMBO_SPEED, 0x403, 4, 0
+0x3033, 0x0025, 
+    IDC_COMBO_SPEED, 0x403, 4, 0
+0x3032, 0x0025, 
+    IDC_COMBO_SPEED, 0x403, 4, 0
+0x3031, 0x0025, 
+    IDC_COMBO2, 0x403, 5, 0
+0xc7d0, 0xf2c7, "\000" 
+    IDC_COMBO2, 0x403, 5, 0
+0xcfb7, 0xe6d0, "\000" 
+    0
+END
+
+IDD_DIALOG_INFOMATION DLGINIT
+BEGIN
+    IDC_COMBO1, 0x403, 15, 0
+0xbec9, 0xfdb3, 0xeab1, 0xbed6, 0xc4b5, 0xc5d0, 0xa2cf, "\000" 
+    IDC_COMBO1, 0x403, 21, 0
+0xbec9, 0xfdb3, 0xf9cb, 0xd0d3, 0xb4ce, 0xeab1, 0xbed6, 0xc4b5, 0xc5d0, 
+0xa2cf, "\000" 
+    IDC_COMBO1, 0x403, 13, 0
+0xbec9, 0xfdb3, 0xf9cb, 0xd0d3, 0xc5d0, 0xa2cf, "\000" 
+    0
+END
+
+IDD_DIALOG_NEWACCOUNT DLGINIT
+BEGIN
+    IDC_COMBO1, 0x403, 9, 0
+0xcbb2, 0xf1c4, 0xb6bc, 0xf0b1, "\000" 
+    IDC_COMBO1, 0x403, 9, 0
+0xfdd5, 0xa3b3, 0xb6bc, 0xf0b1, "\000" 
+    IDC_COMBO1, 0x403, 9, 0
+0xacb3, 0xb6bc, 0xdfb8, 0xd6ca, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CUR_LIST            CURSOR  DISCARDABLE     "res\\gui\\mouse.CUR"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 24
+//
+
+1                       24      MOVEABLE PURE   "XPSTYLE.manifest"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 XGame(&A)..."
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\XGame.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
